@@ -20,4 +20,13 @@ public class Rental {
     public void setDaysRentend(int daysRentend) {
         this.daysRentend = daysRentend;
     }
+
+
+    double getCharge() {
+        return  this.movie.getCharge(daysRentend);
+    }
+
+    int getFrequentRenterPoints(){
+       return this.movie.getFrequentRenterPoints(daysRentend);
+    }
 }
