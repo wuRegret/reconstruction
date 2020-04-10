@@ -1,4 +1,4 @@
-package org.miao.reconstruction.split_temp_variable;
+package org.miao.reconstruction.chapter6.split_temp_variable;
 
 public class Demo {
     private double primaryForce;

@@ -1,4 +1,4 @@
-package org.miao.reconstruction.introduce_explaining_variable;
+package org.miao.reconstruction.chapter6.introduce_explaining_variable;
 
 public class Demo {
     private double quantity;

@@ -1,4 +1,4 @@
-package org.miao.reconstruction.replace_temp_with_query;
+package org.miao.reconstruction.chapter6.replace_temp_with_query;
 
 public class Demo {
     private int quantity;

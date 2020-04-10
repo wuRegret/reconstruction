@@ -1,4 +1,4 @@
-package org.miao.reconstruction.remove_assign_to_param;
+package org.miao.reconstruction.chapter6.remove_assign_to_param;
 
 public class Demo {
     int discount(int inputVal, int quantity, int yearToDate){

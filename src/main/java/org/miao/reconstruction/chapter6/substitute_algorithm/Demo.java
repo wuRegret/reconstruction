@@ -1,4 +1,4 @@
-package org.miao.reconstruction.substitute_algorithm;
+package org.miao.reconstruction.chapter6.substitute_algorithm;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.miao.reconstruction.replace_method_with_method_object;
+package org.miao.reconstruction.chapter6.replace_method_with_method_object;
 
 public class Gamma {
     private Account account;

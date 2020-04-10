@@ -1,4 +1,4 @@
-package org.miao.reconstruction.inline_method;
+package org.miao.reconstruction.chapter6.inline_method;
 
 public class Demo {
     private int numberOfLateDeliveries;

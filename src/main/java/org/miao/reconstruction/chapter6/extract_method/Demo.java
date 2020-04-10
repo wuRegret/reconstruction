@@ -1,4 +1,4 @@
-package org.miao.reconstruction.extract_method;
+package org.miao.reconstruction.chapter6.extract_method;
 
 import java.util.List;
 
