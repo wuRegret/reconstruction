@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Demo {
     private List<Order> orders;
-    void printOwing(){
+    void printOwing(double previousAmount){
         printBanner();
-        double outstanding = getOutstanding();
+        double outstanding = getOutstanding(previousAmount *1.2);
         printDetails(outstanding);
     }
 
@@ -18,8 +18,8 @@ public class Demo {
         System.out.println("outstangding: " + outstanding);
     }
 
-    double getOutstanding(){
-        double result = 0.0;
+    double getOutstanding(double initialValue){
+        double result = initialValue;
         for(Order order : orders){
             result += order.getAmount();
         }
