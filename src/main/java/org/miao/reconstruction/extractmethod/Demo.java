@@ -10,10 +10,14 @@ public class Demo {
         for(Order order : orders){
             outstanding += order.getAmount();
         }
-        System.out.println("outstangding: " + outstanding);
+        printDetails(outstanding);
     }
 
     void printBanner() {
         System.out.println("Customer Owes");
+    }
+
+    void printDetails(double outstanding){
+        System.out.println("outstangding: " + outstanding);
     }
 }
