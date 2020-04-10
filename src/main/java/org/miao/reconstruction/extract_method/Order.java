@@ -1,6 +1,4 @@
-package org.miao.reconstruction.extractmethod;
-
-import java.math.BigDecimal;
+package org.miao.reconstruction.extract_method;
 
 public class Order {
     private double amount;
